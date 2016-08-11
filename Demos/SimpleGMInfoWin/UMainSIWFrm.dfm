@@ -60,9 +60,6 @@ object MainSIWFrm: TMainSIWFrm
     Height = 298
     Align = alClient
     TabOrder = 1
-    ExplicitTop = 41
-    ExplicitWidth = 300
-    ExplicitHeight = 150
     ControlData = {
       4C000000FA3F0000CD1E00000000000000000000000000000000000000000000
       000000004C000000000000000000000001000000E0D057007335CF11AE690800
@@ -73,45 +70,9 @@ object MainSIWFrm: TMainSIWFrm
   object GMMap1: TGMMap
     Language = Espanol
     Active = True
-    IntervalEvents = 200
-    Precision = 0
     RequiredProp.Center.Lat = 41.399632480000000000
     RequiredProp.Center.Lng = 2.167947770000000000
-    RequiredProp.MapType = mtROADMAP
-    RequiredProp.Zoom = 8
-    NonVisualProp.MaxZoom = 0
-    NonVisualProp.MinZoom = 0
-    NonVisualProp.MapMaker = False
-    Layers.Panoramio.Filtered = False
-    Layers.Panoramio.Clickable = True
-    Layers.Panoramio.Show = False
-    Layers.Traffic.Show = False
-    Layers.Transit.Show = False
-    Layers.Bicycling.Show = False
-    Layers.Weather.Show = False
-    Layers.Weather.Clickable = True
-    Layers.Weather.LabelColor = lcBLACK
-    Layers.Weather.SuppressInfoWindows = False
-    Layers.Weather.TemperatureUnit = tuCELSIUS
-    Layers.Weather.WindSpeedUnit = wsKILOMETERS_PER_HOUR
     AfterPageLoaded = GMMap1AfterPageLoaded
-    VisualProp.MapTypeCtrl.Position = cpTOP_RIGHT
-    VisualProp.MapTypeCtrl.Style = mtcDEFAULT
-    VisualProp.MapTypeCtrl.Show = True
-    VisualProp.OverviewMapCtrl.Opened = True
-    VisualProp.OverviewMapCtrl.Show = True
-    VisualProp.PanCtrl.Position = cpTOP_LEFT
-    VisualProp.PanCtrl.Show = True
-    VisualProp.RotateCtrl.Position = cpTOP_LEFT
-    VisualProp.RotateCtrl.Show = True
-    VisualProp.ScaleCtrl.Position = cpBOTTOM_LEFT
-    VisualProp.ScaleCtrl.Style = scDEFAULT
-    VisualProp.ScaleCtrl.Show = True
-    VisualProp.StreetViewCtrl.Position = cpTOP_LEFT
-    VisualProp.StreetViewCtrl.Show = True
-    VisualProp.ZoomCtrl.Position = cpTOP_LEFT
-    VisualProp.ZoomCtrl.Style = zcDEFAULT
-    VisualProp.ZoomCtrl.Show = True
     VisualProp.BGColor = 15659247
     WebBrowser = WebBrowser1
     Left = 240
@@ -120,14 +81,10 @@ object MainSIWFrm: TMainSIWFrm
   object GMInfoWindow1: TGMInfoWindow
     Language = Espanol
     Map = GMMap1
-    AutoUpdate = True
     VisualObjects = <
       item
-        Tag = 0
         DisableAutoPan = False
         MaxWidth = 0
-        PixelOffset.Height = 0
-        PixelOffset.Width = 0
         CloseOtherBeforeOpen = True
         AutoOpen = True
       end>

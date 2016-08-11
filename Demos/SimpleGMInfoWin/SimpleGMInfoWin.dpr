@@ -1,7 +1,7 @@
 program SimpleGMInfoWin;
 
 uses
-  Vcl.Forms,
+  Forms,
   UMainSIWFrm in 'UMainSIWFrm.pas' {MainSIWFrm};
 
 {$R *.res}

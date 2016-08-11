@@ -3,9 +3,9 @@ unit UMainSIWFrm;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, GMMap, GMLinkedComponents, GMInfoWindow,
-  GMClasses, GMMapVCL, Vcl.OleCtrls, SHDocVw, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, Dialogs, GMMap, GMLinkedComponents, GMInfoWindow,
+  GMClasses, GMMapVCL, OleCtrls, SHDocVw, StdCtrls, ExtCtrls;
 
 type
   TMainSIWFrm = class(TForm)

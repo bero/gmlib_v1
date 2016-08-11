@@ -5,8 +5,8 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ExtCtrls, StdCtrls, ComCtrls, Spin, Buttons,
-  GMMarker, GMMarkerVCL, GMMap, GMLinkedComponents, Data.DB, Vcl.Grids,
-  Vcl.DBGrids, Datasnap.DBClient;
+  GMMarker, GMMarkerVCL, GMMap, GMLinkedComponents, DB, Grids,
+  DBGrids, DBClient;
 
 type
   TMarkersFrm = class(TForm)

@@ -173,6 +173,7 @@ object MarkersFrm: TMarkersFrm
         Width = 145
         Height = 21
         Style = csDropDownList
+        ItemHeight = 13
         TabOrder = 12
         OnChange = cbMarkerTypeChange
         Items.Strings = (
@@ -746,6 +747,7 @@ object MarkersFrm: TMarkersFrm
         Top = 131
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 2
         OnChange = cbColCornerColorChange
       end
@@ -754,6 +756,7 @@ object MarkersFrm: TMarkersFrm
         Top = 198
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 3
         OnChange = cbColPrimaryColorChange
       end
@@ -762,6 +765,7 @@ object MarkersFrm: TMarkersFrm
         Top = 267
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 4
         OnChange = cbColStrokeColorChange
       end
@@ -802,6 +806,7 @@ object MarkersFrm: TMarkersFrm
         Top = 112
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 0
         OnChange = cbSMBackColorChange
       end
@@ -810,6 +815,7 @@ object MarkersFrm: TMarkersFrm
         Top = 179
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 1
         OnChange = cbSMTextColorChange
       end
@@ -818,6 +824,7 @@ object MarkersFrm: TMarkersFrm
         Top = 248
         Width = 89
         Height = 22
+        ItemHeight = 16
         TabOrder = 2
         OnChange = cbSMStarColorChange
       end
@@ -836,6 +843,7 @@ object MarkersFrm: TMarkersFrm
         Width = 145
         Height = 21
         Style = csDropDownList
+        ItemHeight = 13
         TabOrder = 4
         OnChange = cbSMStyledIconChange
         Items.Strings = (
